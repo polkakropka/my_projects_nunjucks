@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="28px" viewBox="0 0 36 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Icon / Arrow Right / Light Grey</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon-/-Arrow-Right-/-Light-Grey" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group" transform="translate(18.000000, 14.000000) scale(-1, 1) translate(-18.000000, -14.000000) " stroke="#E5E5E5" stroke-width="3">
+            <path d="M0,13.998 L36,13.998" id="Path"></path>
+            <polyline id="Path" points="14 0 0 14 14 28"></polyline>
+        </g>
+    </g>
+</svg>

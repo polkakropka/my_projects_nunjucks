@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="24px" viewBox="0 0 30 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-/-Site" transform="translate(0.000000, -3.000000)" fill="#E5E5E5" fill-rule="nonzero">
+            <g id="Group-5" transform="translate(0.000000, 3.000000)">
+                <polygon id="Path" points="0 0 30 0 30 5 0 5"></polygon>
+                <path d="M0,24 L30,24 L30,7 L0,7 L0,24 Z M17,11 L25,11 L25,19 L17,19 L17,11 Z M5,10 L13,10 C13.5522847,10 14,10.4477153 14,11 C14,11.5522847 13.5522847,12 13,12 L5,12 C4.44771525,12 4,11.5522847 4,11 C4,10.4477153 4.44771525,10 5,10 Z M5,14 L13,14 C13.5522847,14 14,14.4477153 14,15 C14,15.5522847 13.5522847,16 13,16 L5,16 C4.44771525,16 4,15.5522847 4,15 C4,14.4477153 4.44771525,14 5,14 Z M5,18 L13,18 C13.5522847,18 14,18.4477153 14,19 C14,19.5522847 13.5522847,20 13,20 L5,20 C4.44771525,20 4,19.5522847 4,19 C4,18.4477153 4.44771525,18 5,18 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

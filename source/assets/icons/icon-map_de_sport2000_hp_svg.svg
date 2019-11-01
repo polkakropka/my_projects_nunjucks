@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="14px" viewBox="0 0 11 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>icon_map</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Header-/-Generalisten-/-Default-Desktop" transform="translate(-937.000000, -11.000000)" stroke="#FFFFFF" stroke-width="0.8">
+            <g id="Header-/-Meta">
+                <g id="Group-4" transform="translate(938.000000, 12.000000)">
+                    <g id="Group">
+                        <g id="Icon-/-Map">
+                            <path d="M4.5,0 C2.01471863,0 0,1.97298246 0,4.40677966 C0,8.37288136 4.5,13 4.5,13 C4.5,13 9,8.37288136 9,4.40677966 C9,1.97298246 6.98528137,0 4.5,0 Z" id="Path"></path>
+                            <ellipse id="Oval" cx="4.5" cy="4.40677966" rx="1.8" ry="1.76271186"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

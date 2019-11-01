@@ -1,0 +1,162 @@
+
+{% macro textfield(label, id, name, placeholder, error, value='', required=false, invalid=false, disabled=false, autocomplete='off', type='text', dataError) %}
+    {{ _label(label, id, required, invalid) }}
+    <input type="{{ type }}" id="{{ id }}" name="{{ name }}" value="{{ value }}" placeholder="{{ placeholder }}" autocomplete="{{ autocomplete }}"{{ " required" if required }}{{ " disabled" if disabled }} data-error="{{ dataError }}" />
+    {% if error -%}
+        <span class="error-message">{{ error }}</span>
+    {%- endif %}
+{%- endmacro %}
+
+{% macro textarea(label, id, name, placeholder, error, value='', cols='30', rows='10', required=false, invalid=false, disabled=false, autocomplete='off', dataError) %}
+    {{ _label(label, id, required, invalid) }}
+    <textarea  id="{{ id }}" name="{{ name }}" placeholder="{{ placeholder }}" cols="{{ cols }}" rows="{{ rows }}"{{ " required" if required }}{{ " disabled" if disabled }} data-error="{{ dataError }}"></textarea>
+    {% if error -%}
+        <span class="error-message">{{ error }}</span>
+    {%- endif %}
+{%- endmacro %}
+
+{% macro checkbox(label, id, name, error, value='', required=false, invalid=false, disabled=false, dataError) -%}
+    <div class="input-align">
+        <input type="checkbox" id="{{ id }}" name="{{ name }}" value="{{ value }}"{{ " required" if required }}{{ " disabled" if disabled }} data-error="{{ dataError }}" />
+        {{ _label(label, id, required, invalid) }}
+    </div>
+    {% if error -%}
+        <span class="error-message">{{ error }}</span>
+    {%- endif %}
+{%- endmacro %}
+
+{% macro checkboxGroup(label, name, error, required=false, invalid=false, disabled=false, checkboxes=[]) -%}
+    <div class="input-group">
+        {{ _label(label, '', required, invalid) }}
+        {% for c in checkboxes -%}
+            {{ checkbox(c.label, c.id, name, value=c.value, disabled=disabled) }}
+        {%- endfor -%}
+    </div>
+    {% if error -%}
+        <span class="error-message">{{ error }}</span>
+    {%- endif %}
+{%- endmacro %}
+
+{% macro radioGroup(label, name, error, required=false, invalid=false, disabled=false, radios=[], inline=true) -%}
+    <div class="input-group">
+        {{ _label(label, '', required, invalid) }}
+        <div class="input-align">
+            {%- for r in radios %}
+                {% if inline -%}
+                    <input type="radio" name="{{ name }}" value="{{ r.value }}" id="{{ r.id }}"{{ " required" if required }}{{ " disabled" if disabled }} />
+                    <label for="{{ r.id }}">{{ r.label }}</label>
+                {%- else -%}
+                    <div class="input-align">
+                        <input type="radio" name="{{ name }}" value="{{ r.value }}" id="{{ r.id }}"{{ " required" if required }}{{ " disabled" if disabled }} />
+                        <label for="{{ r.id }}">{{ r.label }}</label>
+                    </div>
+                {%- endif -%}
+            {%- endfor %}
+        </div>
+    </div>
+    {% if error -%}
+        <span class="error-message">{{ error }}</span>
+    {%- endif %}
+{%- endmacro %}
+
+{% macro select(label, id, name, placeholder, error, required, invalid, disabled, options=[], dataError) -%}
+    {{ _label(label, id, required, invalid) }}
+    <select id="{{ id }}" name="{{ name }}"{{ " required" if required }}{{ " disabled" if disabled }} data-error="{{ dataError }}">
+        {% if placeholder -%}
+            <option value="" disabled selected>{{ placeholder }}</option>
+        {%- endif %}
+        {%- for o in options %}
+            <option value="{{ o.value }}">{{ o.label }}</option>
+        {%- endfor %}
+    </select>
+    {% if error -%}
+        <span class="error-message">{{ error }}</span>
+    {%- endif %}
+{%- endmacro %}
+
+{% macro legend(text) -%}
+    <legend>{{ text }}</legend>
+{%- endmacro %}
+
+{% macro submit(label, disabled=false) -%}
+    <input type="submit" value="{{ label }}"{{ " disabled" if disabled }} />
+{%- endmacro %}
+
+{% macro button(label, disabled=false) -%}
+    <button{{ " disabled" if disabled }}>{{ label }}</button>
+{%- endmacro %}
+
+{% macro _label(label, id='', required=false, invalid=false) -%}
+    {%- if not id and not required and not invalid -%}
+        <label>{{ label }}</label>
+        {%- elif not id and required and not invalid -%}
+        <label class="is-mandatory">{{ label }}</label>
+        {%- elif not id and not required and invalid -%}
+        <label class="is-invalid">{{ label }}</label>
+        {%- elif not id and required and invalid -%}
+        <label class="is-mandatory is-invalid">{{ label }}</label>
+        {%- elif id and not required and not invalid -%}
+        <label for="{{ id }}">{{ label }}</label>
+        {%- elif id and required and not invalid -%}
+        <label for="{{ id }}" class="is-mandatory">{{ label }}</label>
+        {%- elif id and not required and invalid -%}
+        <label for="{{ id }}" class="is-invalid">{{ label }}</label>
+        {%- elif id and required and invalid -%}
+        <label for="{{ id }}" class="is-mandatory is-invalid">{{ label }}</label>
+    {%- endif -%}
+{%- endmacro %}
+
+{% macro honeyPot() %}
+    <label for="email-repeat">E-Mail Adresse wiederholen - Screenreader bitte frei lassen</label>
+    <input id="" name="email-repeat" type="email" placeholder="" class="email-sweet" value="" autocomplete="false">
+{% endmacro %}
+
+{% macro date(label, required, placeholder, dataError, dateValue, dateMin, dateMax) %}
+    <label for="" class="">{{ label }}</label>
+    <input type="text" class="datepicker" {{ " required" if required }} placeholder="{{ placeholder }}" name="date" autocomplete="off" required="" readonly=""  data-error="{{ dataError }}" value="{{ dateValue }}" aria-label="Use the arrow keys to pick a date">
+{% endmacro %}
+
+{% macro inputText(class, content) %}
+    <p class="{{ class }}">{{ content }}</p>
+{% endmacro%}
+
+{% macro submitGroup(linkContent, placeholder, buttonClass, submitValue, formID ) %}
+    <div class="form-submit">
+        <a href="#" class="form-link">{{ linkContent }}</a>
+        <input id="" name="" type="submit" placeholder="{{ placeholder }}" class="form-btn {{ buttonClass }}" value="{{ submitValue }}" accept="" data-formid="{{ formID }}">
+    </div>
+{% endmacro %}
+
+{% macro honeyPot() %}
+    <label for="email-repeat">E-Mail Adresse wiederholen - Screenreader bitte frei lassen</label>
+    <input id="" name="email-repeat" type="email" placeholder="" class="email-sweet" value="" autocomplete="false">
+{% endmacro %}
+
+{% macro textarea(textareaCols, textareaRows, textareaPlaceholder, textareaRequired) %}
+    <label for="message" class="">Ihre Nachricht</label>
+    <textarea name="" id="message" class="form-input" {{ " required" if textareaRequired }} cols="{{ textareaCols }}" rows="{{ textareaRows }}"  placeholder="{{ textareaPlaceholder }}" data-error="{{ textareaRequired }}"></textarea>
+{% endmacro %}
+
+{% macro date(label, required, placeholder, dataError, dateValue, dateMin, dateMax) %}
+    <div class="input-date">
+        <label for="" class="">{{ label }}</label>
+        <input name="" id="" type="date" class="form-input" {{ " required" if required }}  placeholder="{{ placeholder }}" data-error="{{ dataError }}" value="{{ dateValue }}" min="{{ dateMin }}" max="{{ dateMax }}">
+        <span class="input__info">Ihre Anzeige wird X Tage nach dem Veröffentlichen automatisch deaktiviert. Hier können Sie ein spezifisches Ablaufdatum auswählen.</span>
+    </div>
+{% endmacro %}
+
+
+{% macro submit(placeholder, buttonClass, submitValue, formID) %}
+    <input id="" name="" type="submit" placeholder="{{ placeholder }}" class="form-btn {{ buttonClass }}" value="{{ submitValue }}" accept="" data-formid="{{ formID }}">
+{% endmacro %}
+
+{% macro upload(fileTypes, fileSize, maxFiles, filePlaceholder, dataError, dataContentTypeError, dataContentSizeError, maxContentFilesError) %}
+    <div class="upload"  data-file-max="{{maxFiles}}" data-file-size="{{ fileSize }}" data-error="{{ dataError }}" data-content-type-error=" {{ dataContentTypeError }}" data-content-size-error=" {{ dataContentSizeError }} " data-content-file-max="{{maxContentFilesError}}">
+        <div class="upload__container"></div>
+        <div class="upload__label">
+            <input type="file"  name="file" id="upload__input" accept="{{ fileTypes }}"   placeholder="{{filePlaceholder}}"  multiple/>
+            <span class="upload__label--icon">+</span>
+        </div>
+    </div>
+{% endmacro %}
+

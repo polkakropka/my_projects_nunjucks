@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="30px" viewBox="0 0 21 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-/-Document" transform="translate(-5.000000, 0.000000)" fill="#E5E5E5" fill-rule="nonzero">
+            <g id="Group-9" transform="translate(5.000000, 0.000000)">
+                <polygon id="Path" points="14 1 14 7 20 7"></polygon>
+                <path d="M12,0 L0,0 L0,30 L21,30 L21,9 L12,9 L12,0 Z M5,9 L9,9 C9.55228475,9 10,9.44771525 10,10 C10,10.5522847 9.55228475,11 9,11 L5,11 C4.44771525,11 4,10.5522847 4,10 C4,9.44771525 4.44771525,9 5,9 Z M14,26 L5,26 C4.44771525,26 4,25.5522847 4,25 C4,24.4477153 4.44771525,24 5,24 L14,24 C14.5522847,24 15,24.4477153 15,25 C15,25.5522847 14.5522847,26 14,26 Z M16,21 L5,21 C4.44771525,21 4,20.5522847 4,20 C4,19.4477153 4.44771525,19 5,19 L16,19 C16.5522847,19 17,19.4477153 17,20 C17,20.5522847 16.5522847,21 16,21 Z M16,14 C16.5522847,14 17,14.4477153 17,15 C17,15.5522847 16.5522847,16 16,16 L5,16 C4.44771525,16 4,15.5522847 4,15 C4,14.4477153 4.44771525,14 5,14 L16,14 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,56 @@
+{
+    "name": "ANWR - Händlerportal",
+    "short_name": "Händlerportal",
+    "start_url": ".",
+    "scope": "./",
+    "display": "standalone",
+    "theme_color": "#CD1316",
+    "background_color": "#CD1316",
+    "description": "ANWR – Händlerportal",
+    "orientation": "portrait",
+    "icons": [{
+        "src": "$CMS_REF(media:"logo_anwr_16x16")$",
+        "sizes": "16x16",
+        "type": "image/jpg"
+    }, {
+        "src": "$CMS_REF(media:"logo_anwr_32x32")$",
+        "sizes": "32x32",
+        "type": "image/jpg"
+    }, {
+        "src": "$CMS_REF(media:"logo_anwr_64x64")$",
+        "sizes": "64x64",
+        "type": "image/jpg"
+    }, {
+        "src": "$CMS_REF(media:"logo_anwr_72x72")$",
+        "sizes": "72x72",
+        "type": "image/jpg"
+    }, {
+        "src": "$CMS_REF(media:"logo_anwr_96x96")$",
+        "sizes": "96x96",
+        "type": "image/jpg"
+    }, {
+        "src": "$CMS_REF(media:"logo_anwr_128x128")$",
+        "sizes": "128x128",
+        "type": "image/jpg"
+    }, {
+        "src": "$CMS_REF(media:"logo_anwr_144x144")$",
+        "sizes": "144x144",
+        "type": "image/jpg"
+    }, {
+        "src": "$CMS_REF(media:"logo_anwr_168x168")$",
+        "sizes": "168x168",
+        "type": "image/jpg"
+    }, {
+        "src": "$CMS_REF(media:"logo_anwr_192x192")$",
+        "sizes": "192x192",
+        "type": "image/jpg"
+    }, {
+        "src": "$CMS_REF(media:"logo_anwr_256x256")$",
+        "sizes": "256x256",
+        "type": "image/jpg"
+    }, {
+        "src": "$CMS_REF(media:"logo_anwr_512x512")$",
+        "sizes": "512x512",
+        "type": "image/jpg"
+    }]
+  }

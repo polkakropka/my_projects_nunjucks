@@ -1,0 +1,63 @@
+{% import 'molecules/form/input.njk' as input %}
+
+
+{% macro nameGroup(placeholderName, placeholderLastname, nameDataError,lastnameDataError,firstNameRequired, lastNameRequired) %}
+<div class="group-names">
+    <div class="col">
+        <label for="fname" class="form-input">Vorname*</label>
+        <input id="fname" name="firstname" type="text" {{ " required" if firstNameRequired }} placeholder="{{ placeholderName }}" class="form-input" value="" accept="" data-error="{{ nameDataError }}">
+    </div>
+    <div class="col">
+        <label for="lname" class="form-input">Nachname*</label>
+        <input id="lname" name="lastname" type="text" {{ " required" if lastNameRequired }} placeholder="{{ placeholderLastname}}" class="form-input" value="" accept="" data-error="{{ lastnameDataError }}">
+    </div>
+</div>
+{% endmacro %}
+
+
+
+{% macro street(streetRequired, streetPlaceholder, streetDataError) %}
+    <div class="group-inupt {{ modifier }}">
+        <div class="group-inupt__container--first">
+            <label for="" class="">Ihre Nachricht</label>
+            <input name="" id="" type="text" class="form-input" {{ " required" if streetRequired }}  placeholder="{{ streetPlaceholder }}" data-error="{{ streetDataError }}">
+        </div>
+        <div class="group-inupt__container--second">
+
+        </div>
+    </div>
+
+{% endmacro %}
+
+{% macro inputGroup(modifier, firstRequired, secondRequired, firstType, secondType, firstPlaceholder, secondPlaceholder, firstDataError, secondDataError) %}
+    <div class="group-inupt {{ modifier }}">
+        <div class="group-inupt-container group-inupt-container__first">
+            <label for="" class="">{{ firstLabel }}</label>
+            <input name="" id="" type="{{ firstType }}" class="form-input" {{ " required" if firstRequired }}  placeholder="{{ firstPlaceholder }}" data-error="{{ firstDataError }}">
+        </div>
+        <div class="group-inupt-container group-inupt-container__second">
+            <label for="" class="">{{ secondLabel }}</label>
+            <input name="" id="" type="{{ secondType }}" class="form-input" {{ " required" if secondRequired }}  placeholder="{{ secondPlaceholder }}" data-error="{{ secondDataError }}">
+        </div>
+    </div>
+{% endmacro %}
+
+
+{% macro submitGroup(linkContent, placeholder, buttonClass, submitValue, formID ) %}
+    <div class="form-submit">
+        <a href="#" class="form-link">{{ linkContent }}</a>
+        {{ input.submit(placeholder, buttonClass, submitValue, formID) }}
+    </div>
+{% endmacro %}
+
+{% macro inputGroupwithDate(modifier, firstRequired, firstType, firstPlaceholder, firstDataError) %}
+    <div class="group-inupt {{ modifier }}">
+        <div class="group-inupt-container group-inupt-container__first">
+            <label for="" class="">{{ firstLabel }}</label>
+            <input name="" id="" type="{{ firstType }}" class="form-input" {{ " required" if firstRequired }}  placeholder="{{ firstPlaceholder }}" data-error="{{ firstDataError }}">
+        </div>
+        <div class="group-inupt-container group-inupt-container__second">
+        {{ input.date('','', 'Ablaufdatum: TT.MM.JJJ', 'Bitte geben Sie Ablaufdatum an', '01-01-2019', '01-01-2019', '01-01-2035') }}           
+        </div>
+    </div>
+{% endmacro %}

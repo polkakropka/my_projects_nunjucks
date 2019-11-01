@@ -1,0 +1,16 @@
+// INCLUDE FONTS
+@mixin font($font, $weight, $style) {
+  font-family: $font;
+  font-style: $style;
+  font-weight: $weight;
+}
+
+//FONT FACE
+@font-face {
+  font-family: WILOPLUSFM;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(#{$font-path}WILOPlusFMReg.woff2) format('woff2'),
+  url(#{$font-path}WILOPlusFMReg.woff) format('woff');
+}

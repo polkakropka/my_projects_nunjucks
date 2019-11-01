@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Icon / iCal / Light Grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,11 L10,16 L16,16 L16,11 L10,11 Z M14.4444444,3 L5.55555556,3 L5.55555556,1 L3.33333333,1 L3.33333333,3 L2.22222222,3 C0.988888889,3 0.0111111111,3.9 0.0111111111,5 L0,19 C0,20.1 0.988888889,21 2.22222222,21 L17.7777778,21 C19,21 20,20.1 20,19 L20,5 C20,3.9 19,3 17.7777778,3 L16.6666667,3 L16.6666667,1 L14.4444444,1 L14.4444444,3 Z M2,18 L2,7 L18,7 L18,18 L2,18 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon-/-iCal-/-Light-Grey" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#00ABBE" xlink:href="#path-1"></use>
+    </g>
+</svg>

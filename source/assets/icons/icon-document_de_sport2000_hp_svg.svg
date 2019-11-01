@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="20px" viewBox="0 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1.-Generalist" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-Generalist-00-Suchergebnisse-01" transform="translate(-600.000000, -1042.000000)" fill="#E5E5E5">
+            <g id="Search-/-Result-/-Site" transform="translate(120.000000, 1006.000000)">
+                <g id="Group" transform="translate(480.000000, 34.000000)">
+                    <path d="M9.16666667,2.83333333 L1.83333333,2.83333333 C0.825,2.83333333 0.00916666667,3.65833333 0.00916666667,4.66666667 L-1.2141399e-12,19.3333333 C-1.2141399e-12,20.3416667 0.815833333,21.1666667 1.82416667,21.1666667 L12.8333333,21.1666667 C13.8416667,21.1666667 14.6666667,20.3416667 14.6666667,19.3333333 L14.6666667,8.33333333 L9.16666667,2.83333333 L9.16666667,2.83333333 Z M11,17.5 L3.66666667,17.5 L3.66666667,15.6666667 L11,15.6666667 L11,17.5 L11,17.5 Z M11,13.8333333 L3.66666667,13.8333333 L3.66666667,12 L11,12 L11,13.8333333 L11,13.8333333 Z M8.25,9.25 L8.25,4.20833333 L13.2916667,9.25 L8.25,9.25 L8.25,9.25 Z" id="Mask"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

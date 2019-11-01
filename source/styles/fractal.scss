@@ -1,0 +1,105 @@
+/**
+ * Fractal
+ * =======
+ *
+ * These styles are meant for fractal and are not used on the site.
+ *
+ * code ........................................................................ Code
+ * .palette .................................................................... Palette
+ * .color ...................................................................... Color Swatch
+ * .font ....................................................................... Font
+ */
+
+$path-assets: '../../dist/assets/';
+
+@import '04-generic/font';
+@import '04-generic/icon';
+
+// Code ........................................................................
+
+code {
+	background-color: transparent !important;
+}
+
+// Palette .....................................................................
+
+.palette {
+	margin: 0 -0.25em;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+// Color Swatch ................................................................
+
+.color {
+	min-width: 14.33em;
+	max-width: 14.33em;
+	position: relative;
+	flex: 1 1 4em;
+	margin: 0 0.25em 1.5em;
+}
+
+.color:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 5em;
+	border-radius: 4px;
+	background-color: currentColor;
+}
+
+.color code {
+	display: inline-block;
+	color: darkslategray;
+}
+
+.color span {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.5rem;
+	display: block;
+	font: 0.75em/1em 'Hack', 'Consolas', 'Monaco', monospace;
+	font-style: normal;
+	text-shadow: 0 0 2px darkslategray;
+	color: white;
+}
+
+// Font ........................................................................
+
+.font {
+	font-size: 20px;
+}
+
+.font-regular {
+	font-family: $font-regular;
+}
+
+.font-semibold {
+	font-family: $font-regular-semibold;
+}
+
+.font-bold {
+	font-family: $font-regular-bold;
+}
+
+.font-italic {
+	font-family: $font-regular-italic;
+}
+
+.font-bolditalic {
+	font-family: $font-regular-bolditalic;
+}
+
+.font-serif {
+	font-family: $font-serif;
+}
+
+.font-serif-bold {
+	font-family: $font-serif-bold;
+}
+.font-serif-italic {
+	font-family: $font-serif-italic;
+}
+.font-serif-bolditalic {
+	font-family: $font-serif-bolditalic;
+}

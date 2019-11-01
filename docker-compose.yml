@@ -1,0 +1,14 @@
+version: "3"
+services:
+  mdn:
+    container_name: anwr
+    volumes:
+      - ./dist:/usr/local/apache2/htdocs
+    build:
+      context: ./config
+      dockerfile: Dockerfile
+    ports:
+      - "41180:80"
+      - "41443:443"
+    environment:
+      SRVENV: PROD

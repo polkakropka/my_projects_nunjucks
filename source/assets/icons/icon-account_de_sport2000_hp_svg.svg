@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>icon_account</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Header-/-Generalisten-/-Default-Desktop" transform="translate(-1141.000000, -11.000000)" stroke="#FFFFFF" stroke-width="0.8">
+            <g id="Header-/-Meta">
+                <g id="Group-4" transform="translate(938.000000, 12.000000)">
+                    <g id="Group-2" transform="translate(204.000000, 0.000000)">
+                        <g id="Icon-/-Account">
+                            <path d="M9.53333333,5.2 C9.53333333,6.52166667 8.79666667,7.69166667 8.01666667,8.40666667 L8.01666667,9.1 C8.01666667,9.53333333 8.23333333,10.205 10.4,10.6166667 C11.6476725,10.8554382 12.6538409,11.7777592 13,13 L0,13 C0.204777704,11.7785286 1.16186192,10.8214444 2.38333333,10.6166667 C4.55,10.2266667 4.98333333,9.53333333 4.98333333,9.1 L4.98333333,8.40666667 C4.20333333,7.69166667 3.46666667,6.54333333 3.46666667,5.2 L3.46666667,3.12 C3.46666667,0.866666667 5.07,0 6.5,0 C7.93,0 9.53333333,0.866666667 9.53333333,3.12 L9.53333333,5.2 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

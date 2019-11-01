@@ -1,0 +1,42 @@
+{
+  "systemParams": "win32-x64-57",
+  "modulesFolders": [
+    "bootstrap"
+  ],
+  "flags": [
+    "production"
+  ],
+  "linkedModules": [],
+  "topLevelPatterns": [
+    "base/embedded-media@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-base-embedded-media.git#1.0.0",
+    "base/form@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-base-form.git#1.0.0",
+    "base/prose@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-base-prose.git#1.2.0",
+    "base/tabular-data@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-base-tabular-data.git#1.0.1",
+    "layout/grid@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-layout-grid.git#1.0.0",
+    "layout/page@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-layout-page.git#1.0.0",
+    "module/accordion@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-accordion.git#1.0.1",
+    "module/footer@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-footer.git#1.0.2",
+    "module/header@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-header.git#1.2.1",
+    "module/mediabox@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-mediabox.git#1.4.0",
+    "module/secondary-menu@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-secondary-menu.git#1.0.0",
+    "module/stage@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-stage.git#1.0.0",
+    "utility/placeholder@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-utility-placeholder.git#1.0.0"
+  ],
+  "lockfileEntries": {
+    "base/embedded-media@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-base-embedded-media.git#1.0.0": "https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-base-embedded-media.git#f5b8e34ce165bb24c91a0c44930e07b85c387fa1",
+    "base/form@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-base-form.git#1.0.0": "https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-base-form.git#23c6c378f63b97ba07527105f1e178d28404c344",
+    "base/prose@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-base-prose.git#1.2.0": "https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-base-prose.git#17d43c9afaf37256385945cac9b58db5a77bd801",
+    "base/tabular-data@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-base-tabular-data.git#1.0.1": "https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-base-tabular-data.git#faa1be397babbe45c403e7d28d476dbb5d18c3e4",
+    "layout/grid@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-layout-grid.git#1.0.0": "https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-layout-grid.git#2ed8d08caf4054674509e334f4f50e7fee338ea9",
+    "layout/page@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-layout-page.git#1.0.0": "https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-layout-page.git#cee658972b932f00350146fc933842284d95936f",
+    "module/accordion@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-accordion.git#1.0.1": "https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-accordion.git#b79c2ae9e9de77807ec024adca16ed7c7e4275c8",
+    "module/footer@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-footer.git#1.0.2": "https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-footer.git#63b9de6425bec464b20cf18d93142ea47d104118",
+    "module/header@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-header.git#1.2.1": "https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-header.git#1cf55a58f3e98d29a344f86a263a256f4c79adf8",
+    "module/mediabox@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-mediabox.git#1.4.0": "https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-mediabox.git#8dafa3ceb18ed8ca3e35bfcd8a19a7e7fb06f0fc",
+    "module/secondary-menu@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-secondary-menu.git#1.0.0": "https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-secondary-menu.git#4d04943d53261efe5840130af6c0129c6e3350b2",
+    "module/stage@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-stage.git#1.0.0": "https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-module-stage.git#fd34d8edd7fe343bfaa97c8d15b4f7fe2bd97c09",
+    "utility/placeholder@https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-utility-placeholder.git#1.0.0": "https://kannengi:9j47cfvQps67@bitbucket.org/relounge/re-lounge_fractal-utility-placeholder.git#c8e02c6ba61030a3a4cb81c1df062a873c1adbe6"
+  },
+  "files": [],
+  "artifacts": {}
+}

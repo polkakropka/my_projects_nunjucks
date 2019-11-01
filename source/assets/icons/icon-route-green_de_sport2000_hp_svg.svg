@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Icon / Route / light grey</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon-/-Route-/-light-grey" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10,0 C5.57714286,0 2,3.443 2,7.7 C2,13.475 10,22 10,22 C10,22 18,13.475 18,7.7 C18,3.443 14.4228571,0 10,0 L10,0 Z M10,11 C8.344,11 7,9.656 7,8 C7,6.344 8.344,5 10,5 C11.656,5 13,6.344 13,8 C13,9.656 11.656,11 10,11 L10,11 Z" id="Mask" fill="#63B32F"></path>
+    </g>
+</svg>
