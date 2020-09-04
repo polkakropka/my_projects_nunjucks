@@ -23,7 +23,7 @@
         "grunt-contrib-uglify-es": "gruntjs/grunt-contrib-uglify#harmony",
         "jquery": "^3.4.1",
         "jquery-ui": "^1.12.1",
-        "node-sass": "^4.5.3",
+        "node-sass": "^4.13.1",
         "object-assign": "^4.0.1",
         "pikaday": "^1.8.0",
         "slick-carousel": "^1.6.0",
