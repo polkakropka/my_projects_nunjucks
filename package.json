@@ -32,7 +32,7 @@
     "devDependencies": {
         "@babel/core": "^7.6.2",
         "@babel/preset-env": "^7.6.2",
-        "@frctl/fractal": "^1.2.0",
+        "@frctl/fractal": "^1.5.14",
         "@frctl/nunjucks": "^1.0.3",
         "autoprefixer": "^6.0.0",
         "babel": "^5.6.23",
